@@ -207,3 +207,24 @@
     grid-gap: 90px 120px;
     text-align: center;
 }
+.main__advantage_content__list_item_image {
+    margin-bottom: 6%;
+}
+.main__advantage_content__list_item_text__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.main__advantage_content__list_item_text__subtitle {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 5%;
+}
