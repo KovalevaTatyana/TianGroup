@@ -171,8 +171,7 @@
     background-color: #d39500;
 }
 .main__advantage {
-    height: 100vh;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .main__advantage_content {
     max-width: 1280px;
@@ -227,4 +226,74 @@
     color: #000000;
     text-align: center;
     margin-bottom: 5%;
+}
+.main__about {
+    margin-top: 2%;
+}
+.main__about_content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.main__about_content__heading {
+    text-align: center;
+}
+.main__about_content__heading_title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: .5;
+    margin-bottom: 2%;
+}
+.main__about_content__title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.main__about_content__text {
+    text-align: center;
+}
+.main__about_content__text span {
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+.main__about_content__text p {
+    width: 70%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    margin: 20px auto;
+}
+.main__about_content__text p:last-child {
+    margin-bottom: 5%;
+}
+.button-primary__more-info {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+    padding: 15px 45px;
+    background-color: #fab91e;
+    cursor: pointer;
+    width: 22%;
+    margin: auto;
+}
+.button-primary__more-info:hover {
+    background-color: #d39500;
 }
