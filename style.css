@@ -487,3 +487,38 @@
     right: 30px;
     position: relative;
 }
+.footer__organisation{
+    margin-top: 4%;
+}
+.footer__organisation_content {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #fab91e;
+}
+.footer__organisation_content_columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.footer__organisation_content_column__text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5%;
+    position: relative;
+    width: 40%;
+    top: 65px;
+}
+.footer__organisation_content_column__arrow {
+    position: relative;
+    left: 242px;
+    top: -50px;
+}
+.footer__organisation_content_column__image {
+    position: relative;
+    left: 320px;
+    top: -30px;
+}
