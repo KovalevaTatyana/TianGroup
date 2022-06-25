@@ -487,7 +487,7 @@
     right: 30px;
     position: relative;
 }
-.footer__organisation{
+.footer__organisation {
     margin-top: 4%;
 }
 .footer__organisation_content {
@@ -521,4 +521,50 @@
     position: relative;
     left: 320px;
     top: -30px;
+}
+.footer__contacts_content {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.footer__contacts_content_phone,
+.footer__contacts_content_mail,
+.footer__contacts_content_location {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.footer__contacts_content_phone__info_text,
+.footer__contacts_content_mail__info_text,
+.footer__contacts_content_location__info_text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+.footer__contacts_content_phone__info_number,
+.footer__contacts_content_mail__info_email,
+.footer__contacts_content_location__info_address {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+.footer__contacts_content_mail__info_email {
+    border-bottom: 1px solid #fab91e;
+}
+.footer__contacts_content_phone__info,
+.footer__contacts_content_mail__info,
+.footer__contacts_content_location__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    line-height: 24px;
 }
